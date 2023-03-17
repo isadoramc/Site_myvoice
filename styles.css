@@ -1,0 +1,99 @@
+head > title {
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  head > link[rel="stylesheet"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+
+body {
+    background-color: rgb(134, 18, 60);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.titulo img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.header-top {
+    width: 70%;
+    padding: 1px 15%;
+   
+    overflow: hidden;
+    background: #ececec;
+    text-align: right;
+    
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+}
+
+.header-top img {
+    float: right;
+    width: 25px;
+    height: 25px;
+    margin-left: 770px;
+}
+
+.header-top a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    transition: 0.3s ;
+    opacity: 0.8;
+}
+
+.header-top:hover a {
+ opacity: 0.25;
+}
+
+.header-top a:hover{
+  opacity: 1;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+  }
+  
+.redes-sociais img {
+    margin-left: 25px;
+  }
+
+.gallery {
+    display: flex;
+    width: 1250px;
+    height: 440px;
+ }
+
+.gallery img {
+    min-width: 0;
+    flex: 1 1 10px;
+    object-fit: cover;
+    opacity: 0.5 ;
+    transition: 0.5s ;
+ }
+ 
+.gallery img:hover{
+    flex: 1 1 280px;
+    opacity: 1;
+}
+
