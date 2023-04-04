@@ -6,6 +6,6 @@ O site do MyVoice é uma plataforma de feedback para MyVoice. Nosso objetivo é 
 ## Autores
 
 - [@defaultdayanni](https://github.com/defaultdayanni)
-- isa
+- isaa
 - ani
 - vinni
